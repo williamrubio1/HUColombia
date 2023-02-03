@@ -1,13 +1,14 @@
 # Databricks notebook source
+##Librerías
 import pandas as pd
-from pyspark.sql.functions import expr
+##from pyspark.sql.functions import expr
 
 # Ubicación de archivo
 file_location = "/FileStore/tables/data_positivos.csv"
 file_type = "csv"
-##Nomre de la tabla
+##Nombre de la tabla
 table_name = "data_positivos_csv"
-##Reemplace "BELLO" por municipio de consulta
+##Reemplazar "BELLO" por municipio de consulta
 mun_consulta = "BELLO"
 
 ##Lee archivo csv
